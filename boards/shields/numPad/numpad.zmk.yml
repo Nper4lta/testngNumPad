@@ -4,7 +4,6 @@ name: numpad
 type: shield
 url: https://github.com/Nper4lta/testngNumPad.git
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
 siblings:
