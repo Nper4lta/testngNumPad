@@ -1,0 +1,11 @@
+# 
+# Kconfig shield
+# 
+# Created: 2025-Aug-09 17:43
+# 
+# Edited: 2025-Aug-09 17:48
+# 
+
+# No whitespace after the comma or in your keyboard name!
+config SHIELD_NUMPAD
+    def_bool $(shields_list_contains,numpad)
